@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#FC4A14</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorText">#8F8F8F</color>
+    <color name="color_black_transprint">#00000000</color>
+    <color name="color_border">#929191</color>
+    <color name="color_edittext_hint">#929191</color>
+    <color name="orange">#fe6f32</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Fittro - Gym Management</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="registration">Registration</string>
+    <style name="Base.Theme.FittroGymManagement" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.FittroGymManagement" parent="Base.Theme.FittroGymManagement">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+</resources>

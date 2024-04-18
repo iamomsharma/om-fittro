@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_youtube.png.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_youtube.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_logo.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_upload_image.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_upload_image.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_dashboard_toolbar.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/dashboard_toolbar.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_client.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_client.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_city.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_city.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_corner_rectangle.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/corner_rectangle.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_member_list.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_member_list.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_subscription_end.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_subscription_end.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_fragment_center_info.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/fragment_center_info.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_fragment_center_plan.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/fragment_center_plan.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_activity_splash.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/navigation_create_center_navigation_graph.xml.flat",
+        "source": "in.fittro.management.app-main-50:/navigation/create_center_navigation_graph.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_call.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_call.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_member.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_member.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_state.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_state.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_arrow_forward.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_arrow_forward.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_team.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_team.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_team_member.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_team_member.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_products.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_products.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_email.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_upload_photo.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/upload_photo.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_img_upload_bg.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/img_upload_bg.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_attendance.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_attendance.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/navigation_auth_navigation_graph.xml.flat",
+        "source": "in.fittro.management.app-main-50:/navigation/auth_navigation_graph.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_website.png.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_website.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_ic_google.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/ic_google.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_password.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_password.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_activity_create_center.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/activity_create_center.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
+        "source": "in.fittro.management.app-main-50:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_fragment_registration.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/fragment_registration.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_event.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_event.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_edittext_border_bg.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/edittext_border_bg.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_ic_facebook.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/ic_facebook.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_add_member.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_add_member.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_subscription_plan_item_view.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/subscription_plan_item_view.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_back.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_plans.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_plans.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_expenses.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_expenses.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_country.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_country.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_activity_subscription_plan.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/activity_subscription_plan.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_arrow_drop_down.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_round_button.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/round_button.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_img_login_background.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/img_login_background.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_facebook.png.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_facebook.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_username.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_username.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_gym_name.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_gym_name.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_address.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_address.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_edittext_bg.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/edittext_bg.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_income.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_income.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_img_gym_bg.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/img_gym_bg.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_round.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/round.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_fragment_center_photo.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/fragment_center_photo.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_order.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_order.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_instagram.png.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_instagram.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-hdpi_img_registration_background.png.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-hdpi/img_registration_background.png"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_toolbar.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/toolbar.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_activity_auth.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_button.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/button.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_subscription.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_subscription.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/xml_backup_rules.xml.flat",
+        "source": "in.fittro.management.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_fragment_login.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "in.fittro.management.app-main-50:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/layout_activity_dashboard.xml.flat",
+        "source": "in.fittro.management.app-main-50:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "in.fittro.management.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "in.fittro.management.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

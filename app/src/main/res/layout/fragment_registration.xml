@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".onboarding.auth.fragment.LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/img_registration_background" />
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/toolbar" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="25dp"
+            android:text="Full Name"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edName"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_bg"
+            android:gravity="center|start"
+            android:hint="Enter Name"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvName"
+            app:layout_constraintStart_toStartOf="@+id/tvName"
+            app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/edName"
+            app:layout_constraintStart_toStartOf="@id/edName"
+            app:layout_constraintTop_toBottomOf="@id/edName" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edEmail"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_bg"
+            android:gravity="center|start"
+            android:hint="Enter Email"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edName"
+            app:layout_constraintStart_toStartOf="@+id/edName"
+            app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Password"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/edName"
+            app:layout_constraintStart_toStartOf="@id/edName"
+            app:layout_constraintTop_toBottomOf="@id/edEmail" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edPassword"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_bg"
+            android:gravity="center|start"
+            android:hint="Enter Password"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edName"
+            app:layout_constraintStart_toStartOf="@+id/edName"
+            app:layout_constraintTop_toBottomOf="@+id/tvPassword" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvGender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Gender"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/edName"
+            app:layout_constraintStart_toStartOf="@id/edName"
+            app:layout_constraintTop_toBottomOf="@id/edPassword" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edGender"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="Select Gender"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edName"
+            app:layout_constraintStart_toStartOf="@+id/edName"
+            app:layout_constraintTop_toBottomOf="@+id/tvGender" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Mobile Number"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/edName"
+            app:layout_constraintStart_toStartOf="@id/edName"
+            app:layout_constraintTop_toBottomOf="@id/edGender" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edPhone"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_bg"
+            android:gravity="center|start"
+            android:hint="Number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edName"
+            app:layout_constraintStart_toStartOf="@+id/edName"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+
+        <!--        <androidx.appcompat.widget.AppCompatTextView-->
+        <!--            android:id="@+id/tvCountry"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:text="Country"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="15sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@id/edName"-->
+        <!--            app:layout_constraintStart_toStartOf="@id/edName"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/edPhone" />-->
+
+
+        <!--        <androidx.appcompat.widget.AppCompatEditText-->
+        <!--            android:id="@+id/edCountry"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:background="@drawable/edittext_border_bg"-->
+        <!--            android:drawableEnd="@drawable/ic_arrow_drop_down"-->
+        <!--            android:drawablePadding="15dp"-->
+        <!--            android:gravity="center|start"-->
+        <!--            android:hint="Select Country"-->
+        <!--            android:padding="15dp"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textColorHint="@color/color_edittext_hint"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/edName"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/edName"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/tvCountry" />-->
+
+
+        <!--        <androidx.appcompat.widget.AppCompatTextView-->
+        <!--            android:id="@+id/tvState"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:text="State"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="15sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@id/edName"-->
+        <!--            app:layout_constraintStart_toStartOf="@id/edName"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/edCountry" />-->
+
+
+        <!--        <androidx.appcompat.widget.AppCompatEditText-->
+        <!--            android:id="@+id/edState"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:background="@drawable/edittext_border_bg"-->
+        <!--            android:drawableEnd="@drawable/ic_arrow_drop_down"-->
+        <!--            android:drawablePadding="15dp"-->
+        <!--            android:gravity="center|start"-->
+        <!--            android:hint="Select State"-->
+        <!--            android:padding="15dp"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textColorHint="@color/color_edittext_hint"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/edName"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/edName"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/tvState" />-->
+
+        <!--        <androidx.appcompat.widget.AppCompatTextView-->
+        <!--            android:id="@+id/tvCity"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:text="City"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="15sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@id/edName"-->
+        <!--            app:layout_constraintStart_toStartOf="@id/edName"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/edState" />-->
+
+
+        <!--        <androidx.appcompat.widget.AppCompatEditText-->
+        <!--            android:id="@+id/edCity"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:background="@drawable/edittext_border_bg"-->
+        <!--            android:drawableEnd="@drawable/ic_arrow_drop_down"-->
+        <!--            android:drawablePadding="15dp"-->
+        <!--            android:gravity="center|start"-->
+        <!--            android:hint="Select State"-->
+        <!--            android:padding="15dp"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textColorHint="@color/color_edittext_hint"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/edName"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/edName"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/tvCity" />-->
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/edPhone"
+            app:layout_constraintStart_toStartOf="@+id/edPhone"
+            app:layout_constraintTop_toBottomOf="@id/edPhone"
+            app:layout_constraintVertical_bias="0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

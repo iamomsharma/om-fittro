@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".onboarding.auth.fragment.LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/img_upload_bg" />
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/toolbar" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/upload_photo"
+            app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/appCompatImageView12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintBottom_toTopOf="@+id/appCompatButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_upload_image" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/appCompatButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:text="Browse File"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/appCompatImageView12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/appCompatImageView12"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatImageView12" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/round_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="20dp"
+                android:rotation="190"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_back" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

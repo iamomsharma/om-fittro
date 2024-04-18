@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".onboarding.auth.fragment.LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/img_gym_bg" />
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/toolbar" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edGymName"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_gym_name"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="Gym Name"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edEmail"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="Business E-mail"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edGymName"
+            app:layout_constraintStart_toStartOf="@+id/edGymName"
+            app:layout_constraintTop_toBottomOf="@+id/edGymName" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edPassword"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_call"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="Business Number"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edGymName"
+            app:layout_constraintStart_toStartOf="@+id/edGymName"
+            app:layout_constraintTop_toBottomOf="@+id/edEmail" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edGender"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_address"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="Business Address"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edGymName"
+            app:layout_constraintStart_toStartOf="@+id/edGymName"
+            app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edCountry"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_country"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="Country"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edGymName"
+            app:layout_constraintStart_toStartOf="@+id/edGymName"
+            app:layout_constraintTop_toBottomOf="@+id/edGender" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edState"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_state"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="State"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edGymName"
+            app:layout_constraintStart_toStartOf="@+id/edGymName"
+            app:layout_constraintTop_toBottomOf="@+id/edCountry" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edCity"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border_bg"
+            android:drawableStart="@drawable/ic_city"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:drawablePadding="15dp"
+            android:gravity="center|start"
+            android:hint="City"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/color_edittext_hint"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/edGymName"
+            app:layout_constraintStart_toStartOf="@+id/edGymName"
+            app:layout_constraintTop_toBottomOf="@+id/edState" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSocialMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Social Media Link"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edCity" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/edCity"
+            app:layout_constraintStart_toStartOf="@+id/edCity"
+            app:layout_constraintTop_toBottomOf="@+id/tvSocialMedia">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableStart="@drawable/ic_instagram"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:hint="Instagram"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/color_edittext_hint"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/edFacebook"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/appCompatImageView11"
+                app:layout_constraintStart_toStartOf="@+id/edGymName"
+                app:layout_constraintTop_toBottomOf="@+id/tvSocialMedia" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableStart="@drawable/ic_facebook"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:hint="Facebook"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/color_edittext_hint"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/edCity"
+                app:layout_constraintEnd_toStartOf="@+id/appCompatImageView11"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/edInstagram"
+                app:layout_constraintTop_toBottomOf="@+id/tvSocialMedia" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llLink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/edCity"
+            app:layout_constraintStart_toStartOf="@+id/edCity"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edYoutube"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableStart="@drawable/ic_youtube"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:hint="Youtube"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/color_edittext_hint"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/edFacebook"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/appCompatImageView11"
+                app:layout_constraintStart_toStartOf="@+id/edGymName"
+                app:layout_constraintTop_toBottomOf="@+id/tvSocialMedia" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="7dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_border_bg"
+                android:drawableStart="@drawable/ic_website"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:hint="Website"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/color_edittext_hint"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/edCity"
+                app:layout_constraintEnd_toStartOf="@+id/appCompatImageView11"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/edInstagram"
+                app:layout_constraintTop_toBottomOf="@+id/tvSocialMedia" />
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/round_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/llLink"
+            app:layout_constraintStart_toStartOf="@+id/llLink"
+            app:layout_constraintTop_toBottomOf="@id/llLink"
+            app:layout_constraintVertical_bias="0">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="20dp"
+                android:rotation="190"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_back" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

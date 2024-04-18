@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_center_navigation_graph"
+    app:startDestination="@id/centerInfoFragment">
+
+    <fragment
+        android:id="@+id/centerInfoFragment"
+        android:name="in.fittro.management.onboarding.createcenter.fragment.CenterInfoFragment"
+        android:label="CenterInfoFragment" >
+        <action
+            android:id="@+id/action_centerInfoFragment_to_centerPhotoFragment"
+            app:destination="@id/centerPhotoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/centerPhotoFragment"
+        android:name="in.fittro.management.onboarding.createcenter.fragment.CenterPhotoFragment"
+        android:label="CenterPhotoFragment" >
+        <action
+            android:id="@+id/action_centerPhotoFragment_to_centerPlanFragment"
+            app:destination="@id/centerPlanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/centerPlanFragment"
+        android:name="in.fittro.management.onboarding.createcenter.fragment.CenterPlanFragment"
+        android:label="fragment_center_plan"
+        tools:layout="@layout/fragment_center_plan" />
+</navigation>
